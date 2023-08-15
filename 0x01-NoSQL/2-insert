@@ -1,0 +1,5 @@
+#!/usr/bin/env python3
+""" 2. Insert a document in Python
+"""
+// Inserts a document in the school collection. // db.createCollection("school")
+db.school.insert({name: "Holberton school"});

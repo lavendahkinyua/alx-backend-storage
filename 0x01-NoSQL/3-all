@@ -1,0 +1,5 @@
+#!/usr/bin/env python3
+""" 3. All documents
+"""
+// Lists all documents in the school collection.
+db.school.find().forEach(printjson);
